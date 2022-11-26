@@ -231,35 +231,63 @@ module.exports = {
       },
     },
     moonbeam: {
-      url: 'https://rpc.api.moonbeam.network',
+      url: "https://rpc.api.moonbeam.network",
       chainId: 1284,
       accounts: {
         mnemonic: mnemonic(),
       },
     },
     moonriver: {
-      url: 'https://rpc.api.moonriver.moonbeam.network',
+      url: "https://rpc.api.moonriver.moonbeam.network",
       chainId: 1285,
       accounts: {
         mnemonic: mnemonic(),
       },
     },
     moonbaseAlpha: {
-      url: 'https://rpc.api.moonbase.moonbeam.network',
+      url: "https://rpc.api.moonbase.moonbeam.network",
       chainId: 1287,
       accounts: {
         mnemonic: mnemonic(),
       },
     },
     moonbeamDevNode: {
-      url: 'http://127.0.0.1:9933',
+      url: "http://127.0.0.1:9933",
       chainId: 1281,
       accounts: {
         mnemonic: mnemonic(),
       },
     },
+    bscTestnet: {
+      chainId: 97,
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
+    bscMainnet: {
+      chainId: 56,
+      url: "https://bsc-dataseed.binance.org/",
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
+    alfajores: {
+      chainId: 44787,
+      url: "https://alfajores-forno.celo-testnet.org",
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
+    celo: {
+      chainId: 42220,
+      url: "https://forno.celo.org",
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
     godwoken: {
-      url: 'https://godwoken-testnet-v1.ckbapp.dev',
+      url: "https://godwoken-testnet-v1.ckbapp.dev",
       chainId: 71401,
       accounts: {
         mnemonic: mnemonic(),
